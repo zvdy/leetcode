@@ -1,15 +1,16 @@
 class Solution:
-  def checkPartitioning(self, s: str) -> bool:
-    @lru_cache(None)
-    def dp(i, j):
-      if i > j - 1:
-        return True
-      if s[i] == s[j - 1]:
-        return dp(i + 1, j - 1)
-      return False
-    n = len(s)
-    for i in range(n):
-      for j in range(i, n):
-        if dp(0, i) and dp(i, j) and dp(j, n):
-          return True
-    return False
+    def checkPartitioning(self, s: str) -> bool:
+        n = len(s)
+        dp = [[False] * n for _ in range(n)]
+        for l in range(1, n+1):
+          for i in range(n-l+1):
+            j = i + l - 1
+            if s[i] == s[j]:
+              dp[i][j] = j-i<2 or dp[i+1][j-1]
+
+        for i in range(n-2):
+          if dp[0][i]:
+            for j in range(i+1,n-1):
+              if dp[i+1][j] and dp[j+1][n-1]:
+                return True
+        return False
