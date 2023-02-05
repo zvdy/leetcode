@@ -15,3 +15,4 @@ class Solution:
             if p_count == s_count:
                 res.append(i)
         return res
+    
