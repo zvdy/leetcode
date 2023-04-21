@@ -21,4 +21,4 @@ class Solution:
                     queue.append((node.left, 2 * index))
                 if node.right:
                     queue.append((node.right, 2 * index + 1))
-        return max_width
+        turn max_width
