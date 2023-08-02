@@ -1,8 +1,10 @@
 # Leetcode
-This are most of the problems I solved on my `leetcode account.` <br>
-Most of them are solved using **`Python`** except the **`SQL querys`**.
-___
-### :brain: **+300 Problems solved**
-![leetcode](https://i.imgur.com/b8ai2n4.png "problems")
-___
-### :heart: Feel free to clone or use my repo
+
+Leetcode is a platform for preparing technical coding interviews. It has a large collection of algorithm problems, and supports online code editor with syntax highlighting and real-time code execution.
+
+This repository contains **+500 solutions** to the problems on Leetcode.
+
+
+> Most of the solutions are written in Python3. Over time, I will also add solutions in other languages such as **Go**, **Java**,**Rust**, **C++**
+
+![alt](/images/leet.png)
