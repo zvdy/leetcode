@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def removeStars(self, s: str) -> str:
         stack = []

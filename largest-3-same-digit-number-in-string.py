@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def largestGoodInteger(self, num: str) -> str:
         # Create a list of all 3-digit numbers in the string that have all the same digits

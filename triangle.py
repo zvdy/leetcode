@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def minimumTotal(self, triangle: List[List[int]]) -> int:
     for i in reversed(range(len(triangle) - 1)):

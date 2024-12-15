@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minimumSubarrayLength(self, nums: List[int], k: int) -> int:
         min_length = float("inf")

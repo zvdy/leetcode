@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countPrimes(self, n: int) -> int:
         if n < 3:

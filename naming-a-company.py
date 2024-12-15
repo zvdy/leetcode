@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def distinctNames(self, ideas: List[str]) -> int:
     ans = 0

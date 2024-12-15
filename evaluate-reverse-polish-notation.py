@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         # Initialize an empty stack

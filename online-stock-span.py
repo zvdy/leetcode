@@ -1,3 +1,4 @@
+from typing import *
 class StockSpanner:
 
     def __init__(self):

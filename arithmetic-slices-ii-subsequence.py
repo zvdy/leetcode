@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:
         # Get the length of the input list

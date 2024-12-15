@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
         if len(nums) == 1:

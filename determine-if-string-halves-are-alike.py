@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def halvesAreAlike(self, s: str) -> bool:
         # Define a set of vowels, both lowercase and uppercase

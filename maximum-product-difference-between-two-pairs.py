@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxProductDifference(self, nums: List[int]) -> int:
         # Sort the array.

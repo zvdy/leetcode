@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minExtraChar(self, s: str, dictionary: List[str]) -> int:
         max_val = len(s) + 1

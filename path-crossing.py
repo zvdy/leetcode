@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isPathCrossing(self, path: str) -> bool:
         moves = {

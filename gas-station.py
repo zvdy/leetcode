@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         # 1. If the sum of gas is less than the sum of cost, then there is no solution

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minStoneSum(self, piles: List[int], k: int) -> int:
         pq = [-x for x in piles]

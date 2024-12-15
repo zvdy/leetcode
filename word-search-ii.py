@@ -1,3 +1,4 @@
+from typing import *
 class TrieNode:
   def __init__(self):
     self.children: Dict[str, TrieNode] = defaultdict(TrieNode)

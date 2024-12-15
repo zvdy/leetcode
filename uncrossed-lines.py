@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxUncrossedLines(self, nums1: List[int], nums2: List[int]) -> int:
         dp = [[0 for _ in range(len(nums2) + 1)] for _ in range(len(nums1) + 1)]

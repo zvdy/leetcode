@@ -1,3 +1,4 @@
+from typing import *
 class TimeMap:
   def __init__(self):
     self.values = defaultdict(list)

@@ -1,3 +1,4 @@
+from typing import *
 class Solution(object):
     def numBusesToDestination(self, routes, source, target):
         # if source and target are the same, we don't need to take any buses

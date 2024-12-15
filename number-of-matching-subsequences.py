@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numMatchingSubseq(self, s: str, words: List[str]) -> int:
         if not words:

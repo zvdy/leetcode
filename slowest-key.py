@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def slowestKey(self, releaseTimes: List[int], keysPressed: str) -> str:
         max_duration = releaseTimes[0]

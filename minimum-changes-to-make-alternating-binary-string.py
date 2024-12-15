@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minOperations(self, s: str) -> int:
         # Number of Changes Required

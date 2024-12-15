@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         if not s:

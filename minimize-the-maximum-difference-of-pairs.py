@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def solve(self, nums, d, p):
         n = len(nums)

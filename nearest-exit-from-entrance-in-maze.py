@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:
         m, n = len(maze), len(maze[0])

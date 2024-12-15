@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def bestClosingTime(self, customers: str) -> int:
         max_score = score = 0

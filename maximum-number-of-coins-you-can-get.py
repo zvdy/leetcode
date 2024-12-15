@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxCoins(self, piles: List[int]) -> int:
         # Sort the list

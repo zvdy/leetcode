@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def buildArray(self, target: List[int], n: int) -> List[str]:
         # Initialize the stack and the answer list

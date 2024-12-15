@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         nums.sort(reverse=True)

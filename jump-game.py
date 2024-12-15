@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def canJump(self, nums: List[int]) -> bool:
     i = 0

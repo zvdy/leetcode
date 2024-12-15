@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         def merge(left, right):

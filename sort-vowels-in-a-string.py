@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def sortVowels(self, s: str) -> str:
         # Sort the vowels in descending order

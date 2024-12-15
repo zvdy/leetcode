@@ -1,3 +1,4 @@
+from typing import *
 class MyCircularQueue:
     def __init__(self, k: int):
         """

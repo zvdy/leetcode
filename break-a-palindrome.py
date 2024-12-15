@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def breakPalindrome(self, palindrome: str) -> str:
         if len(palindrome) == 1:

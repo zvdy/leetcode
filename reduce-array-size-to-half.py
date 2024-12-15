@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def minSetSize(self, arr: List[int]) -> int:
     n = len(arr)

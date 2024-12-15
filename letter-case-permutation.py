@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def letterCasePermutation(self, s: str) -> List[str]:
         res = []

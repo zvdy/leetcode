@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         n = len(grid)

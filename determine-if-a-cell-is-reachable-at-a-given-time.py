@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isReachableAtTime(self, sx: int, sy: int, fx: int, fy: int, t: int) -> bool:
         # Calculate the absolute difference between the start and finish x-coordinates

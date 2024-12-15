@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         if grid[0][0] == 1: return -1

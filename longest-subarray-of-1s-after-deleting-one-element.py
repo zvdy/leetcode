@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
         left = 0

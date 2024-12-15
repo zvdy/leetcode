@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def longestPalindrome(self, words: List[str]) -> int:
     ans = 0

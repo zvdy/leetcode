@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
             wordset = set(words)

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findWinners(self, matches: List[List[int]]) -> List[List[int]]:
         # Initialize two empty lists to store the winners with 0 and 1 losses respectively

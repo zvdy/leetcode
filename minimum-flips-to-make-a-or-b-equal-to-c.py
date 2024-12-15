@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minFlips(self, a: int, b: int, c: int) -> int:
         # Find the maximum number of bits

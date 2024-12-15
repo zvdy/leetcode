@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxSlidingWindow(self, nums, k):
         result = []

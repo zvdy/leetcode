@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         # Initialize an empty dictionary to store the occurrences of each number

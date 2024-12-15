@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
         if not intervals:

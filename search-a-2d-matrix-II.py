@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numberOfWays(self, corridor: str) -> int:
         # Define the modulus for the result

@@ -1,3 +1,4 @@
+from typing import *
 
 class FenwickTree:
   def __init__(self, n: int):

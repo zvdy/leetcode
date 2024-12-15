@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def sumOfLeftLeaves(self, root: TreeNode) -> int:
         if root == None:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
         d = {}

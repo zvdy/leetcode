@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals:

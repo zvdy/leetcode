@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
 # Use dynamic programming to solve this problem.

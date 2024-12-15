@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def largestPerimeter(self, nums: List[int]) -> int:
         nums.sort()

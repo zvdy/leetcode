@@ -1,3 +1,4 @@
+from typing import *
 class WordDictionary:
 
     def __init__(self):

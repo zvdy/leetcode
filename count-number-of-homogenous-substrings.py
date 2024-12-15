@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countHomogenous(self, s: str) -> int:
         ans = 0

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
         if len(points) <= 2:

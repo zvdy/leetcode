@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def find132pattern(self, nums):
         min_list = list(accumulate(nums, min))

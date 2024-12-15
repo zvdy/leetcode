@@ -1,3 +1,4 @@
+from typing import *
 class uf:
     def __init__(self,n):
         self.rank = [0 for i in range(n)]

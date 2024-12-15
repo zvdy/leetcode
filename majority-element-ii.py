@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         candidate1, candidate2 = None, None

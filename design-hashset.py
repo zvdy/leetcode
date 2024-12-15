@@ -1,3 +1,4 @@
+from typing import *
 from bisect import bisect_right as br
 
 

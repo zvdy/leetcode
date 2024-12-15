@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numMusicPlaylists(self, n: int, goal: int, k: int) -> int:
         @lru_cache(None)

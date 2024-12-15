@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxRunTime(self, n: int, b: List[int]) -> int:
         def check(n,mid):

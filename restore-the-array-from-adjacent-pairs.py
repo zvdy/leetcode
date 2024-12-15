@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def restoreArray(self, adjacentPairs: List[List[int]]) -> List[int]:
         # create a dictionary to represent the graph

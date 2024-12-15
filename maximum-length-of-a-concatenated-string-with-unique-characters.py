@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
         # Define a recursive function to find the maximum length of a concatenation of unique strings

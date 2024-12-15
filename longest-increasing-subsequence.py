@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         # Initialize the length of the longest increasing subsequence to 0.

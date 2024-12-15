@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
         dp=[0 for i in range(days[-1]+1)]

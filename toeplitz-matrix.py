@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
         m = len(matrix)

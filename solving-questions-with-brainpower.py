@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def mostPoints(self, questions: List[List[int]]) -> int:
         n = len(questions)

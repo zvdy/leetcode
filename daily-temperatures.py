@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         # Initialize an empty stack

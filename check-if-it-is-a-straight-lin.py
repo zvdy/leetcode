@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
         if len(coordinates) == 2: return True

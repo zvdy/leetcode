@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def kthGrammar(self, n: int, k: int) -> int:
         # If n is 1, return 0

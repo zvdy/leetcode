@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def possibleBipartition(self, n: int, dislikes: List[List[int]]) -> bool:
         graph = collections.defaultdict(set)

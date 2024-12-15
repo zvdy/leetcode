@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
         def canShip(weights, days, capacity):

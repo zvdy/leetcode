@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def checkPartitioning(self, s: str) -> bool:
         n = len(s)

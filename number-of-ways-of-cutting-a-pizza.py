@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isValid(self,pizza,startRow,endRow,startCol,endCol):
         for i in range(startRow,endRow+1):

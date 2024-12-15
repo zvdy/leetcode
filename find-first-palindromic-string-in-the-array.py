@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def firstPalindrome(self, words: List[str]) -> str:
         for word in words:

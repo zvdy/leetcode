@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def peakIndexInMountainArray(self, arr: List[int]) -> int:
         left = 0

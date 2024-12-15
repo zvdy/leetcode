@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:
         stack = []

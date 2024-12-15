@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findBall(self, grid: List[List[int]]) -> List[int]:
         m = len(grid)

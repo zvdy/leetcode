@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         color = {}

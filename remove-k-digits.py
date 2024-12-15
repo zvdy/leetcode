@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         stack = []

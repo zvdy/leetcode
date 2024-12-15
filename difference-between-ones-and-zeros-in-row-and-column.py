@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def onesMinusZeros(self, grid: List[List[int]]) -> List[List[int]]:
         # Get the number of rows and columns

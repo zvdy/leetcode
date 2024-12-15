@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
         if len(strs) == 1:

@@ -1,3 +1,4 @@
+from typing import *
 from collections import deque
 class Solution:
     def shortestPathAllKeys(self, grid: List[str]) -> int:

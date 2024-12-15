@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maximumDetonation(self, bombs: List[List[int]]) -> int:
         n = len(bombs)

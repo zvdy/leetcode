@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def calculate(self, s: str) -> int:
     ans = 0

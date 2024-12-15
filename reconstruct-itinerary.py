@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
         graph = defaultdict(list)

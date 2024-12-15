@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:
         def build(s):

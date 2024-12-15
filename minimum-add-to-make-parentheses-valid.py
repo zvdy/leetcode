@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
         if len(s) == 0:

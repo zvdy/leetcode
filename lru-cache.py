@@ -1,3 +1,4 @@
+from typing import *
 class Node:
   def __init__(self, key: int, value: int):
     self.key = key

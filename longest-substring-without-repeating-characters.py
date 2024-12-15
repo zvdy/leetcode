@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         res=""

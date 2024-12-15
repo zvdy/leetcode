@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         if n == 0:

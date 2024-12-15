@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findSpecialInteger(self, arr: List[int]) -> int:
         n = len(arr)  # Get the length of the input array

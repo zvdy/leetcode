@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def diagonalSum(self, mat: List[List[int]]) -> int:
         n = len(mat)

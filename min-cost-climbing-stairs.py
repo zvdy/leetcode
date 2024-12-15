@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def minCostClimbingStairs(self, cost: List[int]) -> int:
     cost.append(0)

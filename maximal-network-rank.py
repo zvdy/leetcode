@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maximalNetworkRank(self, n: int, roads: List[List[int]]) -> int:
         graph = defaultdict(set)

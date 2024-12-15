@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
         dominoes = 'L' + dominoes + 'R'

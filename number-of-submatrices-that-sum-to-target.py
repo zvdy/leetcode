@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numSubmatrixSumTarget(self, matrix: List[List[int]], target: int) -> int:
         # If the matrix is empty, return 0

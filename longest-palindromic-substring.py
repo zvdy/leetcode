@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         # If the string is empty, return an empty string

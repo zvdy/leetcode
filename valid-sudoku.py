@@ -1,3 +1,4 @@
+from typing import *
 class Solution(object):
     def isValidSudoku(self, board):
         heap_row = collections.defaultdict(list)

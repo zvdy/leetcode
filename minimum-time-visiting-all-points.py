@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
         result = 0

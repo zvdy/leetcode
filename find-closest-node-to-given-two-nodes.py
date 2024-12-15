@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def cdist(self, it, distArray, distArrayIndex, edges):
         rdist = 0 

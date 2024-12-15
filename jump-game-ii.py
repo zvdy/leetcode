@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def jump(self, nums: List[int]) -> int:
     ans = 0

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if not s or not t:

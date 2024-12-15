@@ -1,3 +1,4 @@
+from typing import *
 class SummaryRanges:
 
     def __init__(self):

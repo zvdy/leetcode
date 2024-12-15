@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minimumRounds(self, tasks: list[int]) -> int:
         tasks = Counter(tasks)                      

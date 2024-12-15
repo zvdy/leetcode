@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def intToRoman(self, num: int) -> str:
         roman = ''

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxLengthBetweenEqualCharacters(self, s: str) -> int:
         max_len = -1  # Variable to store the maximum length between equal characters

@@ -1,3 +1,4 @@
+from typing import *
 class Graph:
     # Initialize the graph with a given number of nodes and edges
     def __init__(self, n: int, edges: List[List[int]]):

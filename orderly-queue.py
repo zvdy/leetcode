@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def orderlyQueue(self, s: str, k: int) -> str:
         if k == 1:

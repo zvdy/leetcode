@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numSpecial(self, mat: List[List[int]]) -> int:
         m = len(mat)

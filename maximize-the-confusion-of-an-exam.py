@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxConsecutiveAnswers(self, answerKey: str, k: int) -> int:
         maxf=0

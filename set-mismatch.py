@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         # Get the length of the input list

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         def dfs(s, path, res):

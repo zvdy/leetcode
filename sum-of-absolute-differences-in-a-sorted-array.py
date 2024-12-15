@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def getSumAbsoluteDifferences(self, nums: List[int]) -> List[int]:
         n = len(nums)

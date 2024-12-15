@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def bestTeamScore(self, scores: List[int], ages: List[int]) -> int:
         n = len(scores)

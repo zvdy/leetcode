@@ -1,3 +1,4 @@
+from typing import *
 class BrowserHistory:
 
     def __init__(self, homepage: str):

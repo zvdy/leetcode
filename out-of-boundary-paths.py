@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findPaths(self, m: int, n: int, maxMove: int, startRow: int, startColumn: int) -> int:
         # Define a recursive function to calculate the number of out-of-boundary paths

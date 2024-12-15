@@ -1,3 +1,4 @@
+from typing import *
 class MedianFinder:
 
     def __init__(self):

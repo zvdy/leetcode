@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
         # Create a counter object that counts the occurrence of each number in the list

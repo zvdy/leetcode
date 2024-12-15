@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def movesToStamp(self, stamp: str, target: str) -> List[int]:
     def stampify(s: int) -> int:

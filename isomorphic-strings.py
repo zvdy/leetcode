@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         # Initialize arrays to store the index of characters in the strings

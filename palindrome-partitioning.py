@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         def isPalindrome(s):

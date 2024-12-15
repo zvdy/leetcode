@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
         arr.sort()

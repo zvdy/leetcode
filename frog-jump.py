@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def canCross(self, stones: List[int]) -> bool:
         if stones[1] != 1:

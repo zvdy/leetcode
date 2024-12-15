@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countOdds(self, low: int, high: int) -> int:
         if low % 2 == 0 and high % 2 == 0:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def checkSubarraySum(self, nums: List[int], k: int) -> bool:
     prefix = 0

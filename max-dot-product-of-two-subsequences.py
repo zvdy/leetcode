@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:
         n, m = len(nums1), len(nums2)

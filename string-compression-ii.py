@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def getLengthOfOptimalCompression(self, s: str, k: int) -> int:
     def getLength(maxFreq):  # The length to compress `maxFreq`

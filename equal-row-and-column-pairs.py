@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def equalPairs(self, grid: List[List[int]]) -> int:
         hist = {}

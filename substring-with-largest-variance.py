@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def largestVariance(self, s: str) -> int:
         res=0

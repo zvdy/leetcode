@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def buddyStrings(self, s: str, goal: str) -> bool:
         if len(s) != len(goal):

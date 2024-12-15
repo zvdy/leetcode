@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def shortestBridge(self, grid: List[List[int]]) -> int:
         row,col = len(grid),len(grid[0])

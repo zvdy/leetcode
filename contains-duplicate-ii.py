@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         if len(nums) == len(set(nums)):

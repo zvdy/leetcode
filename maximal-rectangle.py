@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
         rows, cols = len(matrix), len(matrix[0])  # Get matrix dimensions

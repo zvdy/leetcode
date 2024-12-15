@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def dfs(self, s: str, k: int, i: int, dp: List[int]) -> int:
         if i == len(s):

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         graph, dis = defaultdict(list), [-1 for _ in range(n)]

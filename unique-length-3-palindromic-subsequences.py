@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
         # Create a set of unique letters in the string

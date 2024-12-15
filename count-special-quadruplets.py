@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countQuadruplets(self, nums: List[int]) -> int:
         n = len(nums)

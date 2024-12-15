@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def subarraysDivByK(self, nums: List[int], k: int) -> int:
         if not nums:

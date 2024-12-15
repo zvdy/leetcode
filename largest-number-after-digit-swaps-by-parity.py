@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def largestInteger(self, num: int) -> int:
 

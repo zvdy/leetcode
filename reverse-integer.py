@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def reverse(self, x: int) -> int:
         sign_multiplier = 1

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countVowelPermutation(self, n: int) -> int:
         MOD = 10 ** 9 + 7 # constant to take modulo

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     @cache
     def isScramble(self, s1: str, s2: str) -> bool:

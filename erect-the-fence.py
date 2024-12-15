@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def outerTrees(self, trees: List[List[int]]) -> List[List[int]]:
         def cross(o, a, b):

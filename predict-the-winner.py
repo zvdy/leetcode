@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:
         n = len(nums)

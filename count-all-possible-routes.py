@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countRoutes(self, locations: List[int], start: int, finish: int, fuel: int) -> int:
         kMod = 1_000_000_007

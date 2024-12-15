@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numSimilarGroups(self, strs: List[str]) -> int:
         def is_similar(s1, s2):

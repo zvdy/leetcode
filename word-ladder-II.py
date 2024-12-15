@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findLadders(self, beginWord, endWord, wordList):
         wordList = set(wordList)

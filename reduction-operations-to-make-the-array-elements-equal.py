@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def reductionOperations(self, nums: List[int]) -> int:
         # Sort the input list

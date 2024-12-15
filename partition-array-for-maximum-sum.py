@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:
         # Get the length of the array

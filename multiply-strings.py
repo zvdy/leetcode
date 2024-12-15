@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def multiply(self, num1: str, num2: str) -> str:
     s = [0] * (len(num1) + len(num2))

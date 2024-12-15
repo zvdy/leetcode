@@ -1,3 +1,4 @@
+from typing import *
 from collections import defaultdict
 class Solution:
     def longestPath(self, parent: List[int], s: str) -> int:

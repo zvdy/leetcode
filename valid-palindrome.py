@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         if not s:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         # Create a dictionary to store the frequency of each character in the input string

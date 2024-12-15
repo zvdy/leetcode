@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         # If the lengths of the strings are not equal, they cannot be anagrams

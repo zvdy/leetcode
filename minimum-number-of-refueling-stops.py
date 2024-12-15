@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def minRefuelStops(self, target: int, startFuel: int, stations: List[List[int]]) -> int:
     dp = [startFuel] + [0] * len(stations)

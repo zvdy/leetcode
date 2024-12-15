@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def isHappy(self, n: int) -> bool:
     def squaredSum(n: int) -> bool:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def predictPartyVictory(self, senate: str) -> str:
         sz = len(senate)

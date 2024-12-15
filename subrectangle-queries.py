@@ -1,3 +1,4 @@
+from typing import *
 class SubrectangleQueries:
 
     def __init__(self, rectangle: List[List[int]]):

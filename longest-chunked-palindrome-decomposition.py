@@ -1,3 +1,4 @@
+from typing import *
 class Solution(object):
     def longestDecomposition(self, text):
         count = 0

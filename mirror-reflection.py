@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def mirrorReflection(self, p: int, q: int) -> int:
         lcm = p * q // gcd(p, q)

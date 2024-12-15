@@ -1,3 +1,4 @@
+from typing import *
 class ParkingSystem:
 
     def __init__(self, big: int, medium: int, small: int):

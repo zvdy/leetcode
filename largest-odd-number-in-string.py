@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def largestOddNumber(self, num: str) -> str:
         # Start from the end of the number

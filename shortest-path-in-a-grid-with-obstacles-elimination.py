@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def shortestPath(self, grid: List[List[int]], k: int) -> int:
     m = len(grid)

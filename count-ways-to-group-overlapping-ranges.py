@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countWays(self, ranges: List[List[int]]) -> int:
         end_max, res = -1, 1

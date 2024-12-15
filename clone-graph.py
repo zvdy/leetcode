@@ -1,3 +1,4 @@
+from typing import *
 """
 # Definition for a Node.
 class Node:

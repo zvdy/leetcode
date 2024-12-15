@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def mySqrt(self, x: int) -> int:
         l = 0

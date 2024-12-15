@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def validUtf8(self, data: List[int]) -> bool:
         n_bytes = 0

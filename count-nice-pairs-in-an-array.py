@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countNicePairs(self, nums: List[int]) -> int:
         # Define a helper function to reverse a number

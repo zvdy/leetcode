@@ -1,3 +1,4 @@
+from typing import *
 from functools import cache
 class Solution:
     def tallestBillboard(self, rods: List[int]) -> int:

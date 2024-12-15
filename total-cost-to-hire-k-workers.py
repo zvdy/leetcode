@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def totalCost(self, costs, k, candidates):
         i = 0

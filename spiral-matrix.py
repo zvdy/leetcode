@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def garbageCollection(self, garbage: List[str], travel: List[int]) -> int:
         # Initialize variables to keep track of the last index at which each type of garbage was seen

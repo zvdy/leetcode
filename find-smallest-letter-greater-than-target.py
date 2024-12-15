@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         for letter in letters:

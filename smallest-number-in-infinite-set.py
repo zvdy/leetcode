@@ -1,3 +1,4 @@
+from typing import *
 from heapq import heappush, heappop
 
 class SmallestInfiniteSet:

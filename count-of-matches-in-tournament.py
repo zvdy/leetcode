@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     # Function to calculate the number of matches in the tournament
     def numberOfMatches(self, n: int) -> int:

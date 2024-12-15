@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findKthPositive(self, arr: List[int], k: int) -> int:
         if k < arr[0]:

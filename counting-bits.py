@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countBits(self, n: int) -> List[int]:
         res = [0]

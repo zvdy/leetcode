@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:
         @cache

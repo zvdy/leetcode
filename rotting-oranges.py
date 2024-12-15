@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def orangesRotting(self, grid) :
         q = collections.deque()

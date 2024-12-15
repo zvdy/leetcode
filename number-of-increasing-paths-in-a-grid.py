@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countPaths(self, grid: List[List[int]]) -> int:
         noOfRows, noOfCols, res = len(grid), len(grid[0]), 0

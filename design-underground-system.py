@@ -1,3 +1,4 @@
+from typing import *
 class UndergroundSystem:
 
     def __init__(self):

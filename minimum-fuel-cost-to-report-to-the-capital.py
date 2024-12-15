@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def minimumFuelCost(self, roads: List[List[int]], seats: int) -> int:
     ans = 0

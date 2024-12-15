@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numRollsToTarget(self, n: int, k: int, target: int) -> int:
         # If the target is less than the number of dice or greater than the maximum possible sum, return 0

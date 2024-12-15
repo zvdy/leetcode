@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def eliminateMaximum(self, dist: List[int], speed: List[int]) -> int:
         # Calculate the time it takes for each monster to reach the city

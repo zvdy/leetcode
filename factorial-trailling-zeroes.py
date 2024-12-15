@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         if n == 0:

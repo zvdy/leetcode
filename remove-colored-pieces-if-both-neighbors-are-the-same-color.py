@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def winnerOfGame(self, colors: str) -> bool:
         a = b = 0

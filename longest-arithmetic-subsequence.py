@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def longestArithSeqLength(self, nums: List[int]) -> int:
         dp = {}

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def getWinner(self, arr: List[int], k: int) -> int:
         # If k is greater than or equal to the length of the array, the maximum element is the winner

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         if not points:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def customSortString(self, order: str, s: str) -> str:
         if not order:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:
         n = len(obstacles)

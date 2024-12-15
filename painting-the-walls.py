@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def paintWalls(self, cost: List[int], time: List[int]) -> int:
         postfix_times = time.copy()

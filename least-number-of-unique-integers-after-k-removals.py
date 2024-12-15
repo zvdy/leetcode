@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findLeastNumOfUniqueInts(self, arr: List[int], k: int) -> int:
         # Dictionary to track the frequencies of elements

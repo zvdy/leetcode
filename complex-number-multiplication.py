@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def complexNumberMultiply(self, a: str, b: str) -> str:
     def getRealAndImag(s: str) -> tuple:

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def checkPossibility(self, nums: List[int]) -> bool:
     j = None

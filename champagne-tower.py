@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
         dp = [[0 for _ in range(x)] for x in range(1, query_row + 2)]

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
         # The idea is to use DFS to find all the connected components.

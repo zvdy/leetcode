@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
         dp = [0] * (len(multipliers) + 1)

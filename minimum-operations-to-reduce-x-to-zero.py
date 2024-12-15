@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minOperations(self, nums: List[int], x: int) -> int:
         # Time Complexity: O(n)

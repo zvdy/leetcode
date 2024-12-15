@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
         if end not in bank:

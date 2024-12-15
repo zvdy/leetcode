@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minSpeedOnTime(self, dist: List[int], hour: float) -> int:
         if len(dist) >= hour + 1  : return -1

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minPairSum(self, nums: List[int]) -> int:
         # Initialize the maximum pair sum to 0

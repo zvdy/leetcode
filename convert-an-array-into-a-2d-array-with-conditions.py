@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findMatrix(self, nums: List[int]) -> List[List[int]]:
         freq = defaultdict(int)

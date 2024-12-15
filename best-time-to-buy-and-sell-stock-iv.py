@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         if not prices:

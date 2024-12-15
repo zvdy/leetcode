@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         stones.sort()

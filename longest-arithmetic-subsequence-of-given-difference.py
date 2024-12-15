@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def longestSubsequence(self, arr: List[int], difference: int) -> int:
         # Create a dictionary to store the length of the longest subsequence

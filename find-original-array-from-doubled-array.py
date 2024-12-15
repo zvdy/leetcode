@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def findOriginalArray(self, changed: List[int]) -> List[int]:
     ans = []

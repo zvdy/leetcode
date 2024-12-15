@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def buyChoco(self, prices: List[int], money: int) -> int:
         # Assume the Minimum Cost to be Infinity

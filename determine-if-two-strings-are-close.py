@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def closeStrings(self, word1: str, word2: str) -> bool:
         # If the lengths of the two words are not equal, they can't be close strings

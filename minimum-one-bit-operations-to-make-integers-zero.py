@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minimumOneBitOperations(self, n: int) -> int:
         ans = 0

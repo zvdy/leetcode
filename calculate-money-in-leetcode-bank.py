@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def totalMoney(self, n: int) -> int:
         # The number of weeks

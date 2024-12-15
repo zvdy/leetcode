@@ -1,3 +1,4 @@
+from typing import *
 class Trie:
 
     def __init__(self):

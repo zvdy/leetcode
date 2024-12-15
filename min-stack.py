@@ -1,3 +1,4 @@
+from typing import *
 class MinStack:
 
     def __init__(self):

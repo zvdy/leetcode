@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def knightDialer(self, n: int) -> int:
         MOD = 10**9 + 7

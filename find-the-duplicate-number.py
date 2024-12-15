@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         # Floyd's Tortoise and Hare (Cycle Detection)

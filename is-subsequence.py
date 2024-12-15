@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         if len(s) == 0:

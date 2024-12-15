@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minDifficulty(self, jobDifficulty: List[int], d: int) -> int:
         # Get the number of jobs

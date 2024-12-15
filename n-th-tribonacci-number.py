@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def tribonacci(self, n: int) -> int:
         if n == 0:

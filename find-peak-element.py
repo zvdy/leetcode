@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         if len(nums) == 1:

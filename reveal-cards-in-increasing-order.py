@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:
         # Initialize the result list with 0s

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maxValueOfCoins(self, piles: List[List[int]], k: int) -> int:
         n = len(piles)

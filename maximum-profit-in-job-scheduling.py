@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
         # Combine the start times, end times, and profits into a single list of jobs

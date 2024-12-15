@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def primeSubOperation(self, nums):
         max_element = max(nums)

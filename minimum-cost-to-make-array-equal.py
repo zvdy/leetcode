@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minCost(self, nums: list[int], cost: list[int]) -> int:
         n = len(nums)

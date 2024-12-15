@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def imageSmoother(self, img: List[List[int]]) -> List[List[int]]:
         m = len(img)  # Get the number of rows in the image

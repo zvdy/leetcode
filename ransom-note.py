@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         ransomNote = list(ransomNote)

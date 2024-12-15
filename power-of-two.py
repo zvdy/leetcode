@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         if n == 0:

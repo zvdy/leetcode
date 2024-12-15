@@ -1,3 +1,4 @@
+from typing import *
 class Food:
     def __init__(self, food_rating, food_name):
         # Store the food's rating.

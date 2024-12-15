@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
         rows = [set('qwertyuiop'), set('asdfghjkl'), set('zxcvbnm')]

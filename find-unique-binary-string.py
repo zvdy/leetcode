@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findDifferentBinaryString(self, nums: List[str]) -> str:
         # Create a set of the input array

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def answerQueries(self, nums: List[int], queries: List[int]) -> List[int]:
         nums.sort()

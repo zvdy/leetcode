@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def helper(self, piles, dp, suffixSum, i, M):
         if i == len(piles):

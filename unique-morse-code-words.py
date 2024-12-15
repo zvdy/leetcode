@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
         morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]

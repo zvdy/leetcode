@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
         if len(fruits) < 3:

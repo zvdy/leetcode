@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
         n = len(arr)

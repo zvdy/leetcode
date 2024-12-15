@@ -1,3 +1,4 @@
+from typing import *
 class Parser:
     def __init__(self, input):
         self.input = input

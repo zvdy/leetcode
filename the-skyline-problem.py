@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
     n = len(buildings)

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         # 1. get the frequency of each element in arr1

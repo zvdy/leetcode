@@ -1,3 +1,4 @@
+from typing import *
 class SnapshotArray:
 
     def __init__(self, length: int):

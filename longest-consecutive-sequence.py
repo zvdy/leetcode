@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         if not nums:

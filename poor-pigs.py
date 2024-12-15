@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:
         # initialize the number of pigs to 0

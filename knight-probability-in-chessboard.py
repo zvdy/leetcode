@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def knightProbability(self, n: int, k: int, row: int, column: int) -> float:
         # dp[i][j] = probability of being on the board at (i, j) after k moves

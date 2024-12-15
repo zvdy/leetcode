@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
         if len(words) == 1:

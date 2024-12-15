@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """

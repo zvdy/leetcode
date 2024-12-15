@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def isSafe(self, s, graph, visited, checkCycle):
         if visited[s] == 1:

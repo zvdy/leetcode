@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def sumOfDistancesInTree(self, n: int, edges: List[List[int]]) -> List[int]:
         g = collections.defaultdict(list)

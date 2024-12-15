@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # If there's only one house, the maximum amount of money we can rob is the money in that house

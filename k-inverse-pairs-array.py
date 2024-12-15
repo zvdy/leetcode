@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def kInversePairs(self, n: int, k: int) -> int:
         # Define the modulus to avoid overflow

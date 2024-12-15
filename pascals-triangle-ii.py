@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         if rowIndex == 0:

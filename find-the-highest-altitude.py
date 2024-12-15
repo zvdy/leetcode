@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
         max_alt = 0

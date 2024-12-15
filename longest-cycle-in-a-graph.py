@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def longestCycle(self, edges: List[int]) -> int:
         n = len(edges)

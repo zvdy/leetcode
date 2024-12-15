@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
         # Convert list of obstacles to a set of tuples for faster lookup

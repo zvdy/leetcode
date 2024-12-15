@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minFlipsMonoIncr(self, s: str) -> int:
         ones, ans = 0, 0                   

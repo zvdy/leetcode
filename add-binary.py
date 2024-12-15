@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         if len(a) < len(b):

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
         words = s.split()

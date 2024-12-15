@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numWays(self, steps: int, arrLen: int) -> int:
         MOD = 10 ** 9 + 7

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numOfWays(self, nums: List[int]) -> int:
         def helper(nums):

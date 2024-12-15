@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def countMaxOrSubsets(self, nums: List[int]) -> int:
         def get_max_or(nums):

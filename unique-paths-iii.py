@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
 	def uniquePathsIII(self, grid: List[List[int]]) -> int:
 		def dfs(row, col, count_zero, grid):

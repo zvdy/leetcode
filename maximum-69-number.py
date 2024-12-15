@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def maximum69Number (self, num: int) -> int:
         num = str(num)

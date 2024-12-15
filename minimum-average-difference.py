@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minimumAverageDifference(self, nums: List[int]) -> int:
         first = [nums[0]]

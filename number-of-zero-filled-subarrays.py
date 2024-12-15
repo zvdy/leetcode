@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
         count = 0

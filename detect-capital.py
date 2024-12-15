@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         if word.isupper() or word.islower():

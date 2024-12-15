@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def shortestPathLength(self, graph: List[List[int]]) -> int:
         n = len(graph)

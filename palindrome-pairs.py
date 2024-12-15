@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
   def palindromePairs(self, words: List[str]) -> List[List[int]]:
     ans = []

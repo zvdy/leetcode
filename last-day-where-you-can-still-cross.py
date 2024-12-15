@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def canCross(self, row, col, cells, day):
         grid = [[0] * col for _ in range(row)]

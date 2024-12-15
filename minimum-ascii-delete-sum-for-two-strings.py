@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:    
         n1, n2 = len(s1), len(s2)

@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numOfArrays(self, n: int, m: int, k: int) -> int:
         dp = [[[0 for _ in range(k+1)] for _ in range(m+1)] for _ in range(n+1)]

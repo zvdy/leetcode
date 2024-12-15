@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def numEnclaves(self, grid: List[List[int]]) -> int:
         def dfs(i, j):

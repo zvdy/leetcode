@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
         if not matrix:

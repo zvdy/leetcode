@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def new21Game(self, n: int, k: int, maxPts: int) -> float:
         if k == 0:

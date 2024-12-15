@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
         # dp[i] = (length of LIS ending at i, number of LIS ending at i)
