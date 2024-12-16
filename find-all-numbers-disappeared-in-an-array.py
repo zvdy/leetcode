@@ -1,4 +1,4 @@
-
+from typing import *
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         uniq = set() # init  a set to store unique values to compare with the range of the list
