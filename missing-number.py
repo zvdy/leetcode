@@ -1,5 +1,9 @@
 from typing import *
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        n = len(nums)
-        return n * (n + 1) // 2 - sum(nums)
+        nums.sort()
+        for i, v in enumerate(nums):
+            if i != v:
+                return i
+
+        return len(nums)
