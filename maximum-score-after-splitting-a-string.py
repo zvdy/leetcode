@@ -1,18 +1,20 @@
-from typing import *
 class Solution:
     def maxScore(self, s: str) -> int:
-        ans = 0
-        
+        zero = 0
+        one = s.count("1")
+        res = 0
+
         for i in range(len(s) - 1):
-            curr = 0
-            for j in range(i + 1):
-                if s[j] == "0":
-                    curr += 1
-            
-            for j in range(i + 1, len(s)):
-                if s[j] == "1":
-                    curr += 1
-            
-            ans = max(ans, curr)
-    
-        return ans
+            if s[i] == "0":
+                zero += 1
+            else:
+                one -= 1
+            res = max(res, zero + one)
+
+        return res
+
+
+s = Solution()
+
+
+print(s.maxScore("011101010"))
